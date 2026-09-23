@@ -1,0 +1,15 @@
+{
+  "name": "@sandsoftwaresolutions/api-client",
+  "version": "0.1.0",
+  "description": "A small fetch-based API client with retries, timeouts and typed errors.",
+  "type": "module",
+  "exports": { ".": { "types": "./src/index.d.ts", "import": "./src/index.js" } },
+  "files": ["src", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test", "pack:check": "npm pack --dry-run" },
+  "keywords": ["api", "fetch", "http", "client", "retry", "typescript"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/SandSoftwareSolutions/ss-api-client.git" },
+  "publishConfig": { "access": "public" }
+}
