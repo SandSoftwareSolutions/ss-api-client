@@ -10,6 +10,8 @@ A dependency-free fetch client for browsers, Node.js 18+, workers and edge runti
 npm install @sandsoftwaresolutions/api-client
 ```
 
+Works with `import` and `require()`, and ships TypeScript types for both.
+
 ## Usage
 
 ```js
